@@ -1,5 +1,5 @@
 {% set name = "lmfit" %}
-{% set version = "0.8.3" %}
+{% set version = "0.9.13" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   url: https://github.com/{{ name }}/{{ name }}-py/archive/{{ version }}.tar.gz
   fn: {{ name }}-{{ version }}.tar.gz
-  sha256: cb96919efe57e800cec3187edb88fb8c4aecd0b5687f7fd9d6e4bd10f746880a
+  sha256: b604afca0aaa23b28170065853b59d6e4c585c367e537b769813af313f8ebeed 
 
 build:
   noarch: python
@@ -18,11 +18,19 @@ build:
 requirements:
   host:
     - python
+    - asteval>=0.9.11
+    - numpy
     - pip
+    - scipy>=0.17
+    - six
+    - uncertainties>=3.0
   run:
     - python
+    - asteval>=0.9.11
     - numpy
-    - scipy
+    - scipy>=0.17
+    - six
+    - uncertainties>=3.0
 
 test:
   imports:
@@ -40,8 +48,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - ericdill
     - tacaswell
     - licode
     - newville
     - danielballan
+    - tritemio
