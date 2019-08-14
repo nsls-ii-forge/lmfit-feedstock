@@ -18,12 +18,7 @@ build:
 requirements:
   host:
     - python
-    - asteval>=0.9.11
-    - numpy
     - pip
-    - scipy>=0.17
-    - six
-    - uncertainties>=3.0
   run:
     - python
     - asteval>=0.9.11
