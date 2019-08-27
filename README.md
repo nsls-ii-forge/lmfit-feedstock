@@ -1,13 +1,13 @@
 About lmfit
 ===========
 
-Home: http://lmfit.github.io/lmfit-py/
+Home: http://lmfit.github.io/lmfit-py
 
 Package license: lmfit
 
 Feedstock license: BSD 3-Clause
 
-Summary: Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting http:/lmfit.github.io/lmfit-py/
+Summary: Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting http://lmfit.github.io/lmfit-py.
 
 
 
