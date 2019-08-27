@@ -81,9 +81,4 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@danielballan](https://github.com/danielballan/)
-* [@licode](https://github.com/licode/)
-* [@newville](https://github.com/newville/)
-* [@tacaswell](https://github.com/tacaswell/)
-* [@tritemio](https://github.com/tritemio/)
 
