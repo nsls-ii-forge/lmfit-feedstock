@@ -1,6 +1,6 @@
 {% set name = "lmfit" %}
-{% set version = "0.9.13" %}
-{% set sha256 = "aaabeb5276cebe7d7c4172c6b1ada5df95fd020e5a43070543961c60bd6f0ec1" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "aa005a3ed8fe759e89cba59c5e130b5ff0b73e9379c6d6b10240daabff706ed5" %}
 
 package:
   name: {{ name }}
@@ -20,12 +20,12 @@ requirements:
     - python
     - pip
   run:
-    - python
-    - asteval>=0.9.11
-    - numpy
-    - scipy>=0.17
+    - python>=3.5
+    - asteval>=0.9.16
+    - numpy>=1.16
+    - scipy>=1.2
     - six
-    - uncertainties>=3.0
+    - uncertainties>=3.0.1
 
 test:
   imports:
